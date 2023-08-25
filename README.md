@@ -76,3 +76,4 @@ Based on the highest performing models, we recommend the following:
 * Recommendation 1
 * Satellite image classification is very promising given its high accuracy. The State Water Resources Board should invest in training multi-class models on labeled drought images to anticipate potential drought severity in the future.
 * Recommendation 3
+
