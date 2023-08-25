@@ -43,21 +43,21 @@ The second dataset was collected from a Kaggle Wildfire Prediction Dataset [sour
 
 #### Model 3 Dataset
 
-The third dataset was collected from The Climatology Lab at UC Merced [source](https://www.climatologylab.org/). and scraped by **explain scraping and cleaning methods here**. These data were used to create a **insert model type here** which was evaluated using **insert evaluation metric here**. For the reader's convenience this dataset's data dictionary is shown below:
+The third dataset was collected from The Climatology Lab at UC Merced's TerraClimate model  [source](https://www.climatologylab.org/). and scraped by **explain scraping and cleaning methods here**. These data were used to create a **insert model type here** which was evaluated using **insert evaluation metric here**. For the reader's convenience this dataset's data dictionary is shown below:
 
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
 **datetime**|DateTime Index|Entire United States|Monthly Dates from 1958-2023|
-|**soil_moisture**|float64|Entire United States|Not Specified|
+|**soil_moisture**|float64|Entire United States|total column moisture (mm)|
 ---
 
 ## Summary of Findings
 
 Three different models were developed to predict drought from three different perspectives.
 
-1. Model 1 predicted precipitation forecasting by month using a SARIMA model giving a RMSE of 0.0389 inches.
+1. Model 1 predicted precipitation forecasting by month using a SARIMA model giving an RMSE of 0.0389 inches.
 2. Model 2 predicted whether an image shows a wildfire region with 95% accuracy.
-3. Model 3 predicted soil moisture forecasting **prediction** according to **this metric**.
+3. Model 3 predicted soil moisture forecasting using a SARIMA model giving an MSE of .143.
 
 Based on the performance of these three models and the assumptions and limitations inherent in each of the models, the team of data scientists inferred that **Model 1** and **Model 3** might be the most suitable for making accurate forecasting predictions of drought due to being fast and cost-effective models. 
 
@@ -67,5 +67,5 @@ Based on the highest performing models, we recommend the following: The CNN imag
 
 * Based on this finding, the team recommends that the agency should consider using an SARIMA model with this easier accessible data for a cheaper method to forecast precipitation. Although models that use extensive data can have a smaller RMSE score this method can provide a faster and cheaper prediction.
 * Satellite image classification is very promising given its high accuracy. The State Water Resources Board should invest in training multi-class models on labeled drought images to anticipate potential drought severity in the future.
-* Recommendation 3
+* The primary finding of model three is that soil moisture has undergone a fundamental change in trajectory from 1958-2010 compared with 2010 onward. Whereas in earlier decades soil moisture had a neutral trend over time, in later years, the trend is clearly negative. The team recommends primarily using data from 2010 onward in order to create accurate soil moisture forecasts, as the previous era's data can no longer be reliably used.
 
