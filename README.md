@@ -10,6 +10,10 @@ The series of notebooks, data files, data visual images, and slideshow presentat
 
 ---
 
+## Executive Summary 
+https://docs.google.com/document/d/1UVaOQ_DEBk50xdqclEGXFHgx9Rtxh89mGk8V0VJSgbw/edit?usp=sharing 
+
+
 ## Table of Contents
 
 Readers of this report to the California State Water Resources Board will find it useful to review the directories and files in the following order:
