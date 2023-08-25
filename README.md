@@ -10,6 +10,30 @@ The series of notebooks, data files, data visual images, and slideshow presentat
 
 ---
 
+## Table of Contents
+
+Readers of this report to the California State Water Resources Board will find it useful to review the directories and files in the following order:
+
+- 01_problem_statement.ipynb
+- 01_model
+    - code 
+        - eda_new_data.ipynb
+        - linear_ts_model.ipynb
+        - rnn_models.ipynb
+- 02_model
+    - code
+        - 03_image_class_cnn.ipnyb
+- 03_model
+    - code 
+        - 01_data_collecting.ipynb
+        - 02_eda.ipynb
+        - 03_modeling.ipynb
+- 05_findings_recommendations.ipynb
+
+
+---
+
+
 ## Problem Statement
 
 The California Department of Water Resources has hired a team of data scientists to develop comparative machine learning models for predicting upcoming droughts. The effects of global climate change have made it increasingly challenging to predict when a drought may be looming on the horizon but all the more imperative as more extreme weather events occur with increasing frequency.
