@@ -33,6 +33,20 @@ Readers of this report to the California State Water Resources Board will find i
 
 ---
 
+## Software Required
+
+For reading and interacting with these notebooks and files the following software are recommended for installation by the reader:
+
+- Pandas
+- Matplotlib.pyplot
+- Seaborn
+- Tensorflow.keras
+- Wget
+- Sktime
+- Statsmodel
+
+
+--- 
 
 ## Problem Statement
 
