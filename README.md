@@ -48,7 +48,7 @@ The third dataset was collected from The Climatology Lab at UC Merced's TerraCli
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
 **datetime**|DateTime Index|Entire United States|Monthly Dates from 1958-2023|
-|**soil_moisture**|float64|Entire United States|total column moisture (mm)|
+|**soil_moisture**|float64|Entire United States|Total column moisture (mm)|
 ---
 
 ## Summary of Findings
