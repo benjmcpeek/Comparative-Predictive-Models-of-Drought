@@ -43,17 +43,12 @@ The second dataset was collected from a Kaggle Wildfire Prediction Dataset [sour
 
 #### Model 3 Dataset
 
-The third dataset was collected from **include source here** and scraped by **explain scraping and cleaning methods here**. These data were used to create a **insert model type here** which was evaluated using **insert evaluation metric here**. For the reader's convenience this dataset's data dictionary is shown below:
+The third dataset was collected from The Climatology Lab at UC Merced [source](https://www.climatologylab.org/). and scraped by **explain scraping and cleaning methods here**. These data were used to create a **insert model type here** which was evaluated using **insert evaluation metric here**. For the reader's convenience this dataset's data dictionary is shown below:
 
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-
+**datetime**|DateTime Index|Entire United States|Monthly Dates from 1958-2023|
+|**soil_moisture**|float64|Entire United States|Not Specified|
 ---
 
 ## Summary of Findings
